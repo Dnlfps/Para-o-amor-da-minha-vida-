@@ -1,0 +1,37 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #c71585;
+}
+
+.caixa {
+  font-size: 5em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.galeria img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
